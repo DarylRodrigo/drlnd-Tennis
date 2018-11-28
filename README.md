@@ -7,7 +7,7 @@ This is a project from the **Deep Reinforcement Learning Nanodegree** @Udacity.
 _The task is to solve the Unity [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) Environment._
 You can watch the final result by using the `watch_a_trained_agent.ipynb`.
 
-![](/pictures/tennis.png)
+![](/pictures/Tennis.PNG)
 
 
 ### Project Overview
