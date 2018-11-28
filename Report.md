@@ -1,7 +1,6 @@
 **About the Agent:**
 
-To solve this task, I've used Multi-Agent-DDGP.
-
+To solve this task, I've used Multi-Agent-DDGP. I noted a high variation in the outcomes at every training run. This led to a time-consuming Hyperparameter-tuning phase because to validate the changes I made one has to check the impact based on multiple runs. Although the presented outcome is near optimal, there are still many runs, that lead to poor or no learning.
 
 Usage of CPU:
 
@@ -44,3 +43,4 @@ Environment solved after ~1556 Episodes
 
 * **Ideas for Future Work:**
     * Implement Prioritized Experience Replay from the DQN paper to further reduce training time.
+    * Test other weight initialization methods, to see if training time can be systematically reduced.
