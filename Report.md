@@ -8,7 +8,7 @@ Usage of CPU:
 I trained the agent on my CPU instead of using the GPU because there is more serial computation involved. Running the code on CPU was ~30% faster for me.
 
 
-**DDPG Hyperparameters:**
+**MADDPG Hyperparameters:**
 
     BUFFER_SIZE = int(1e5)  # replay buffer size
     BATCH_SIZE = 128        # minibatch size
