@@ -1,6 +1,8 @@
 **About the Agent:**
 
-To solve this task, I've used Multi-Agent-DDGP. I noted a high variation in the outcomes at every training run. This led to a time-consuming Hyperparameter-tuning phase because to validate the changes I made one has to check the impact based on multiple runs. Although the presented outcome is near optimal, there are still many runs, that lead to poor or no learning.
+To solve this task, I've used a Multi-Agent-DDGP Agent. The Agent contains an actor and a critic network. The same actor network is used for both agents to select actions. The experience is shared in the same replay buffer. While training the critic network is "judging" based on all states an actions from both agents. While execution the actors have only access to their own, individual state. Actor and Critic are trained with a local and target network-version each. The target networks are updated every step with factor TAU to achieve a soft update rule.
+
+I noted a high variation in the outcomes at every training run. This led to a time-consuming Hyperparameter-tuning phase because to validate the changes I made one has to check the impact based on multiple runs. Although the presented outcome is near optimal, there are still many runs, that lead to poor or no learning.
 
 Usage of CPU:
 
